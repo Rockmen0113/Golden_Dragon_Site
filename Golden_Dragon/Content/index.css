@@ -1,0 +1,264 @@
+body{
+    background-color: #e5e5e5;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.618;
+}
+
+.HeaderBackground{
+    background-image: url("Photo/zolotoyDrakon4.jpg");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    height: 90%;
+}
+
+.HeaderBackgroundBlacker{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+
+#Emblem{
+    float: left;
+    padding-left: 0px;
+}
+
+#HeaderTextDiv{
+    color:white;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-left: 180px;
+}
+
+#HeaderButton{
+    margin-top: 50px;
+}
+
+.HeaderHeader{
+    font-weight: bold;
+}
+
+.HeaderText{
+    font-weight: 100;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.myButton{
+    border: none;
+}
+
+.row{
+    float: right;
+    padding-right: 100px;
+}
+
+.myTop{
+    padding-top: 35px;
+    padding-right: 50px;
+}
+
+.Button_Header{
+     background-color: #d89b6c;
+     border: none;
+ }
+
+.Button_Header:hover{
+    background-color: #d89b6c;
+    border: none;
+}
+
+.main{
+    position: relative;
+    background: #fff;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12),
+    0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 60px 30px 0;
+    border-radius: 6px 6px 0 0;
+    z-index: 1;
+}
+
+.Main_Text{
+    text-align: justify;
+    color: #333333;
+    font-size: 18px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.about{
+    color: #999999;
+    font-weight: bold;
+}
+
+.dragon-about{
+    padding: 65px 0 30px;
+    z-index: 0;
+}
+
+.btn-outline-warning{
+    border: 2px solid;
+    border-color: #b26b09;
+    color: #b26b09;
+}
+
+.btn-outline-warning:hover {
+    border: 2px solid;
+    border-color: #b26b09;
+    background:#b26b09;
+    color: white;
+}
+.Picture_Topic{
+    padding-top: 60px;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+#Picture_Topic_Button{
+    text-align: center;
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+
+.Space{
+    height: 100px;
+}
+
+.galery{
+    margin-right: 5px;
+    border-radius: 6px 6px 0 0;
+}
+
+#Galery{
+    margin-left: -20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#Galery_Button{
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+#PriceTable{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-collapse: collapse;
+    color: gray;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.TableBorders{
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.TableBorders p{
+    margin-left: 5px;
+}
+
+#Prices{
+    margin-bottom: 50px;
+}
+
+.TableHead{
+    border-left: 1px solid #ddd;
+}
+
+.Spatial{
+    color: red;
+    font-weight: bold;
+}
+
+.TableName{
+    text-align: left;
+}
+
+.FooterBackGround{
+    background-image: url("Photo/zolotoy_drakon_malorechenskoe_00011.png");
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    padding: 90px 0 70px;
+}
+
+.FooterBackGround div{
+    color: white;
+    margin-left: 80px;
+}
+
+.FooterBackGround div p{
+    color: orange;
+    -webkit-text-stroke: 0.8px black;
+    font-size: 20px;
+}
+
+footer{
+    padding: 30px 0 18px;
+    background: #323437
+}
+
+footer div ul{
+    list-style: none;
+    display: block;
+    margin-left: 80px;
+}
+
+footer div ul li{
+    display: inline;
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: small;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color:coral;
+}
+
+.Email{
+    color: wheat;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#Footer_Names{
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#ContactUs{
+    float: right;
+    margin-right: 100px;
+}
+
+#ContactUs_Top{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #d89b6c;
+    text-align: center;
+    border-radius: 3px;
+}
