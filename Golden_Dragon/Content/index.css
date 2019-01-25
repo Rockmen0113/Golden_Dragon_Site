@@ -19,11 +19,11 @@ body{
     height: 90%;
 }
 
-.HeaderBackgroundBlacker{
+.HeaderBackgroundBlacker {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.35);
 }
 
 #Emblem{
@@ -74,9 +74,9 @@ body{
     padding-right: 50px;
     background-color: white;
     height: 75px;
-    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
-        0 6px 30px 5px rgba(0, 0, 0, 0.12)
-    , 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 10px -6px rgba(0,0,0,0.42),
+        0 1px 10px 0 rgba(0,0,0,0.12),
+        0 4px 5px -2px rgba(0,0,0,0.1);
 }
 
 .Button_Header{
@@ -253,7 +253,7 @@ a:hover{
 .Email{
     color: wheat;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #Footer_Names{
