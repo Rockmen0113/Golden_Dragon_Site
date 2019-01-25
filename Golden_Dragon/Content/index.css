@@ -1,3 +1,5 @@
+/*Index + global css*/
+
 body{
     background-color: #e5e5e5;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -286,4 +288,52 @@ a:hover{
     background: #d89b6c;
     text-align: center;
     border-radius: 3px;
+}
+
+/*Contacts css*/
+
+#Contacts_CuntactUs {
+    text-align: center;
+    padding-top: 5%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29.124px;
+    color: #3C4858;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.Contacts_Header {
+    background-image: url(../Content/Photo/zolotoy_drakon_malorechenskoe_00011.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    height: 60%;
+}
+
+.Contacta_HeaderTitle {
+    font-weight: 700;
+    color: white;
+    margin: 20px 0 10px;
+    line-height: 1.1;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.Contacts_HeaderTitleBox {
+    padding: 5%;
+    text-align:center;
+}
+
+#Contacts_Email {
+    color: #333;
+    font-size: 18px;
+}
+
+#Contacts_Email:hover{
+    color: coral;
 }
