@@ -28,18 +28,20 @@ body{
 
 #Emblem{
     float: left;
-    padding-left: 0px;
+    padding-left: 0%;
+    margin-top: -25px;
 }
 
-#HeaderTextDiv{
-    color:white;
+#HeaderTextDiv {
+    color: white;
     font-weight: bold;
-    padding-top: 70px;
-    padding-left: 180px;
+    padding-top: 5%;
+    /*padding-top: 70px;*/
+    padding-left: 20%;
 }
 
 #HeaderButton{
-    margin-top: 50px;
+    margin-top: 3%;
 }
 
 .HeaderHeader{
@@ -53,17 +55,28 @@ body{
 }
 
 .myButton{
+    color: black;
+    border: none;
+}
+
+.myButton:hover {
+    color: yellow;
     border: none;
 }
 
 .row{
     float: right;
-    padding-right: 100px;
+    padding-right: 8%;
 }
 
-.myTop{
-    padding-top: 35px;
+.myTop {
+    padding-top: 20px;
     padding-right: 50px;
+    background-color: white;
+    height: 75px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+        0 6px 30px 5px rgba(0, 0, 0, 0.12)
+    , 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .Button_Header{
