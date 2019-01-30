@@ -37,6 +37,11 @@ namespace Golden_Dragon.Controllers
         }
 
         // GET: HotelRoomModels/Create
+        public ActionResult Prices()
+        {
+            return View();
+        }
+
         public ActionResult Create()
         {
             return View();

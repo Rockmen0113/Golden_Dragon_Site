@@ -12,4 +12,4 @@ namespace Golden_Dragon.Models
         public string[] ImagesPath { get; set; }
         public string Description { get; set; }
     }
-}
+}   

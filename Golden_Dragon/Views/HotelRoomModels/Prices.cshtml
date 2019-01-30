@@ -1,0 +1,63 @@
+﻿@model Golden_Dragon.Models.HotelRoomModel
+
+@{
+    Layout = "~/Views/HotelRoomModels/_LayoutMenu.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="Prices_main">
+
+        <section class="dragon-about ">
+            <div class="container ">
+                <div class="dragon-aboutContent">
+                    <div id="Prices">
+                        <table id="PriceTable">
+                            <thead>
+                            <td class="TableHead">Название</td>
+                            <td class="TableHead">
+                                @*@Html.DisplayNameFor(model => model.Date)*@
+                            </td>
+                            <td class="TableHead">Стоимость в сутки (01.10-31.03)</td>
+                            <td class="TableHead Spatial">Специальное предложение (22.07-24.07)</td>
+                            <td class="TableHead Spatial">Все номера 07.01-08.01 по 400грн.</td>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="TableBorders TableName">
+                                        <p> @Html.DisplayFor(model => model.Description) </p>
+                                    </td>
+                                    <td class="TableBorders">
+                                     @*   @Html.DisplayFor(model => model.Price)*@
+                                    </td>
+                                    <td class="TableBorders">
+                                        <p>430 грн.</p>
+                                    </td>
+                                    <td class="TableBorders Spatial">
+                                        <p>480 грн.</p>
+                                    </td>
+                                    <td class="TableBorders Spatial">
+                                        <p>400 грн.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    }
+</body>
+</html>

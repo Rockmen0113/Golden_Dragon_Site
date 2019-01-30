@@ -10,7 +10,7 @@ namespace Golden_Dragon.Models
         public int ID { get; set; }
         public HotelRoomModel hotelRoom { get; set; }
         public int Price { get; set; }
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
         public bool isSpecial { get; set; }
     }
 }
