@@ -1,6 +1,6 @@
 /*Index + global css*/
 
-body{
+body {
     background-color: #e5e5e5;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.618;
@@ -98,6 +98,7 @@ body{
     margin: 60px 30px 0;
     border-radius: 6px 6px 0 0;
     z-index: 1;
+    min-height: 50vh;
 }
 
 .Main_Text{
@@ -290,8 +291,19 @@ a:hover{
     border-radius: 3px;
 }
 
-/*Contacts css*/
+#MainTextFirstPicture {
+    width: 15%;
+    float:right;
+    margin-left: 1%;
+}
 
+#MainTextSecondPicture {
+    width: 25%;
+    float: left;
+    margin-right: 1%;
+}
+
+/*Contacts css*/
 #Contacts_CuntactUs {
     text-align: center;
     padding-top: 5%;
