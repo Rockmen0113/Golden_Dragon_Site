@@ -21,7 +21,14 @@ namespace Golden_Dragon.Controllers
             return View(await db.Hotel_Room.ToListAsync());
         }
 
+        // GET: HotelRoomModels/Contacts
         public ActionResult Contacts()
+        {
+            return View();
+        }
+
+        // GET: HotelRoomModels/Rooms
+        public ActionResult Rooms()
         {
             return View();
         }

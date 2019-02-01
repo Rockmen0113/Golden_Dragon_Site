@@ -219,6 +219,7 @@
     <Content Include="Views\HotelRoomModels\Index.cshtml" />
     <Content Include="Views\HotelRoomModels\_LayoutMenu.cshtml" />
     <Content Include="Views\HotelRoomModels\Contacts.cshtml" />
+    <Content Include="Views\HotelRoomModels\Rooms.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Rooms";
+    Layout = "~/Views/HotelRoomModels/_LayoutMenu.cshtml";
+}
+
+<h2>Rooms</h2>
+
+<div class="main">
+    <div>
+        <img id="Rooms_GaleryMainPicture" src="~/Content/Photo/zolotoy_drakon_malorechenskoe_00011.jpg" />
+    </div>
+    <div>
+        @for (int i = 1; i <= 4; i++)
+        {
+            <img src="~/Content/Photo/Nomer4/pic_@(i).jpg"/>
+        }
+    </div>
+</div>
